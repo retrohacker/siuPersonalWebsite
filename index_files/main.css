@@ -1,0 +1,16 @@
+@charset "utf-8";
+body{margin:0;background-color:#D9D6CB;font-family:Arial;}
+img{border:0;}
+a{color:#600;text-decoration:none;}
+a:hover{text-decoration:underline;}
+#headerCenter, #content, #navCenter, #footer{width:960px;margin:0 auto;}
+#content{position:relative;overflow:auto;background-color:#fff;padding:10px 15px;}
+#header{padding:8px 0;background-color:#EAE7E0;}
+#header #title{font-size:26px;text-align:center;}
+#header #title a{color:#000;text-decoration:none;}
+#nav{padding:20px 0 14px 0;margin-top:10px;background:url('http://www2.cs.siu.edu/~HPCLab/img/navbackground.png') repeat-x;}
+#nav a{color:#fff;text-decoration:none;padding:12px;}
+#nav a:hover{background-color: #460000;}
+#footer{background-color:#EAE7E0;padding:15px;position:relative;}
+#footer a{font-weight:bold;}
+#content .titleCenter{font-size:18px;color:#900;font-weight:bold;padding:6px 0;text-align:center;background-color:#d9d6cb;}
