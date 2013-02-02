@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html><head>
+<title>Distributed Computing Lab @ SIUC</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="../index_files/main.css" rel="stylesheet">
+<link href="http://www2.cs.siu.edu/%7EHPCLab/favicon.ico" rel="shortcut icon"><style>
+.half{float:left;overflow:hidden;width:440px;padding:0 10px;text-align:center;}
+.row{overflow:auto;margin-top:20px;}
+table{border-collapse:collapse;}
+tr td{padding-top:20px;}
+ul li{margin-top:15px;}
+</style>
+</head>
+
+<body>
+<div id="header">
+	<div id="headerCenter">
+		<div id="title">
+			<a href="../index.html">William Blankenship <a href="http://www2.cs.siu.edu/%7EHPCLab/">@ <b>HPC</b> Laboratory</a> 
+		</div>
+	</div>
+	<div id="nav">
+		<div id="navCenter">
+			<a href="../index.html"><img src="../index_files/home.png"></a>
+			<a href="../research.html">Research</a>
+			<a href="../contact.html">Contact Me</a>
+			<a href="http://careers.stackoverflow.com/crackers">Résumé</a>
+		</div>
+	</div>
+</div>	<div id="content">
+		<div class="titleCenter">CloudSim</div>
+		<img src="http://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif" alt="" title="Workflow" style="margin:4px 4px 4px 0;float:left;border:3px outset black;"></img>
+		<p>
+		SIU's HPC Lab produces a lot of test code for job scheduling algorithms. This test code is used to support our research and prove its validity. My job, in a nutshell, is to explore the possibility of using the <a href="www.cloudbus.org/cloudsim">CloudSim framework</a> for testing our algorithms.
+		</p>
+		<p>
+		Cloudsim is a java framework built by a team at the University of Melbourne in Australia. It simulates a federation of DataCenters and allows users to build virtual test environments where they can test their algorithms monitoring everything from workflow execution time to electrical consumption.
+		</p>
+		<p>
+		Currently I am implementing a graduate students algorithm in CloudSim to determine the practicality of using the framework and what benefits it offers us compared to our current devlopment practices. The simulation I am designing will set up a federation of datacenters, each with a number of heterogenous servers having time dependent resources (availability of resources changes over time). The algorithm will select a datacenter to execute a workflow on based off of the predicted energy costs of executing the workflow in that specific datacenter and the datacenter will attempt to throttle the CPU speed of individual servers to reduce power consumption during the execution of the workflow. At the end of the simulation we should have data pertaining to the amount of time it took to complete the workflow as well as the amount of power consumed during its execution.
+		</p>
+		</div>
+<div id="footer">
+	<div style="position:absolute;top:8px;font-size:12px;">
+		Email: william.jblankenship@gmail.com<br>
+		<a href="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=&amp;daddr=Faner+Hall,+Carbondale,+IL&amp;hl=en&amp;geocode=FRJ8PwIdP6Cu-in5InvmJRJ3iDHH_ue7ZmnJvQ&amp;aq=&amp;sll=37.849375,-89.223232&amp;sspn=0.012115,0.021393&amp;vpsrc=6&amp;mra=ls&amp;ie=UTF8&amp;ll=37.714958,-89.219005&amp;spn=0.006068,0.010697&amp;t=m&amp;z=17&amp;iwloc=ddw1" target="_blank">Faner</a> Room 2036
+	</div>
+	<div style="text-align:center;color:#900" "="">
+		© 2013 Southern Illinois University Carbondale
+	</div>
+</div></body></html>
